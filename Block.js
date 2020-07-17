@@ -38,32 +38,38 @@ class Block {
       pop();
     }
   }
-  score(){
-    block1.score();
-    block2.score();
-    block3.score();
-    block4.score();
-    block5.score();
-    block6.score();
-    block7.score();
-    block8.score();
-    block9.score();
-    block10.score();
-    block11.score();
-    block13.score();
-    block14.score();
-    block15.score();
-    block16.score();
-    
-    blocks1.score();
-    blocks2.score();
-    blocks3.score();
-    blocks4.score();
-    blocks5.score();
-    blocks6.score();
-    blocks7.score();
-    blocks8.score();
-    blocks9.score();
-  }
-};
+  score()
+  {
+     if(this.Visibility<0 && this.visibility >-105)
+     {
+       score++;
+/*block1.score();
+block2.score();
+block3.score();
+block4.score();
+block5.score();
+block6.score();
+block7.score();
+block8.score();
+block9.score();
+block10.score();
+block11.score();
+block13.score();
+block14.score();
+block15.score();
+block16.score();
 
+blocks1.score();
+blocks2.score();
+blocks3.score();
+blocks4.score();
+blocks5.score();
+blocks6.score();
+blocks7.score();
+blocks8.score();
+blocks9.score();*/
+
+       } 
+      }
+   
+};
